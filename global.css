@@ -1,0 +1,322 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+td {
+	border: 0;
+}
+
+body {
+	background: url('/images/background_1.jpg') no-repeat 0px 6px #ededed;	
+	font-size: 13px;
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+}	
+
+a.dark {
+	font-size: 13px;
+	
+}
+
+div#black_top {	
+	width: 100%;
+	height: 6px;
+	background-color: #313131;
+}
+
+div#main_wrapper {
+	width: 980px;
+	margin: 0 auto;	
+}
+
+div#search {
+	width: 	285px;
+	position: absolute;
+	margin-left: 340px;
+	margin-top: -235px;
+}
+
+input#search_input {
+	width: 238px;
+	height: 32px;
+	border-left: 1px #c9cac6 solid;
+	border-top: 1px #c9cac6 solid;
+	line-height: 32px;
+	padding-left: 8px;
+	color: #a7a7a7;
+	float: left;
+	outline: none;
+}
+
+div#search_button {
+	width: 38px;
+	height: 33px;
+	background: url('/images/search_icon.png') no-repeat center #ffa400;
+	display: inline-block;
+	float: left; 
+	cursor: pointer;
+}
+
+.advanced_search {
+	color: #575757;
+}
+
+div#sign_in {
+	position: absolute;
+	height: 33px;
+	line-height: 33px;
+	margin-top: -235px;	
+	margin-left: 691px;
+}
+
+div#sign_in a {
+	color: #575757;
+}
+
+div#add_your_offer {
+	position: absolute;
+	height: 33px;
+	line-height: 33px;
+	margin-top: -235px;	
+	margin-left: 762px;
+	background-image: url('/images/add_offer_button.png');
+	background-position: top;
+	color: #ffffff;
+	font-weight: bold;
+	width: 104px;
+	padding-left: 43px;
+	cursor: pointer;
+}
+      
+div#add_your_offer:hover {
+	background-position: bottom;	
+}
+
+div#menu {
+	position: absolute;
+	width: 980px;
+	height: 65px;
+	background-image: url('/images/bg_menu.png');
+	margin-top: -125px;
+	background-repeat: no-repeat;	
+}
+
+table#menu_table {
+	width: 100%;
+	color: #ffffff;
+	line-height: 18px;
+	font-size: 14px;	
+	height: 65px;
+}
+
+table#menu_table td {
+	vertical-align: middle;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+}
+
+table#menu_table td.separator {
+	width: 1px;
+	height: 65px;
+	padding: 0;
+	background-image: url('/images/seperator_menu.png');	
+}
+
+div#content {
+
+}
+
+table#content_table {
+	margin-bottom: 24px;	
+	margin-top: 260px;
+}
+
+td.single {
+	border: 1px #dddddd solid;
+	width: 295px;
+	height: 206px;	
+	background-color: #ffffff;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+td.double {
+	border: 1px #dddddd solid;
+	width: 627px;
+	height: 206px;	
+	background-color: #ffffff;
+	padding: 5px;
+}
+
+td.margin {
+	width: 41px;
+	display: block;
+}
+
+div.header {
+	height: 28px;
+	background-color: #ffa400;
+	line-height: 28px;
+	color: #ffffff;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 16px;
+	float: left;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+td.single.mini {
+	border: 1px #dddddd solid;
+	width: 288px;
+	height: 77px;	
+	background-color: #ffffff;
+	padding: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+td.full {
+	border: 1px #dddddd solid;
+	width: 100%;
+	min-height: 55px;	
+	background-color: #ffffff;
+	line-height: 55px;
+	padding-left: 14px;
+	padding-right: 14px	
+}
+
+td.full.gray {
+	background-color: #dcdcdc;
+	border: 1px solid #d2d2d2;
+}
+
+td.single.mini.special {
+	background-color: #faf8c7;
+}
+
+td.single.mini:hover {
+	background-color: #0789a9;
+}
+
+td.separator {
+	height: 8px;	
+}
+
+td.separator2 {
+	height: 18px;	
+}
+
+div#footer {
+	width: 100%;	
+}
+
+div#footer div.full_width {
+	height: 56px;	
+}
+
+div#footer div.dark {
+	background-color: #313131;
+	color: #ffffff;	
+}
+
+div.center {
+	width: 980px;
+	margin: 0 auto;
+	height: 56px;	
+}
+
+#photo_info {
+	float: left;	
+	display: tabble-cell;
+	height: 50px;
+	line-height: 18px;
+}
+
+#slideshow_dots {
+	float: right;
+	margin-top: 20px;
+	margin-right: 4p;
+	display: tabble-cell;
+}
+
+.mtop10 {
+	margin-top: 10px;
+}
+
+div.clear {
+	clear: both;	
+}
+
+.slide {
+	display: none;
+}
+
+#slides {
+	height: 160px;
+}
+
+#slideshow_dots a {
+	width: 10px;
+	height: 10px;
+	background-color: #3d3d3d;
+	float: left;
+	display: block;
+	color: transparent;
+	margin-right: 5px;
+}
+
+#slideshow_dots a.activeSlide {
+	background-color: #12a1bf;
+}
+
+p.dark {
+	color: #222222;
+	font-size: 13px;
+	font-weight: bold;	
+}
+
+p.less_dark {
+	color: #575757;
+	font-size: 13px;	
+}
+
+.fcolumn {
+	float: left;
+	line-height: 30px;	
+	min-width: 115px;
+}
+
+.fcolumn p {
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.fcolumn p.h:hover {
+	background-color: #12a1bf;
+	color: #ffffff;
+}
+
+p.bbottom {
+	border-bottom: 1px solid #ededed;	
+}
+
+div#map {
+	float: right;	
+}
+
+.thumb {
+	float: left;	
+}
+
+.desc {
+	width: 145px;
+	float: right;
+	line-height: 18px;	
+}
