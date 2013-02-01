@@ -64,6 +64,9 @@ div#search_button {
 
 .advanced_search {
 	color: #575757;
+	font-size: 13px;
+	float: left;
+	margin-top: 5px;
 }
 
 div#sign_in {
@@ -119,6 +122,7 @@ table#menu_table td {
 	padding-left: 8px;
 	padding-right: 8px;
 	text-align: center;
+	cursor: pointer;
 }
 
 table#menu_table td.separator {
@@ -155,7 +159,7 @@ td.double {
 }
 
 td.margin {
-	width: 41px;
+	width: 34px;
 	display: block;
 }
 
@@ -174,12 +178,13 @@ div.header {
 
 td.single.mini {
 	border: 1px #dddddd solid;
-	width: 288px;
+	width: 295px;
 	height: 77px;	
 	background-color: #ffffff;
 	padding: 5px;
 	margin-bottom: 10px;
 	cursor: pointer;
+	padding-bottom: 6px;
 }
 
 td.full {
@@ -189,12 +194,19 @@ td.full {
 	background-color: #ffffff;
 	line-height: 55px;
 	padding-left: 14px;
-	padding-right: 14px	
+	padding-right: 14px;	
+	font-size: 13px;
+	color: #222222;
 }
 
 td.full.gray {
 	background-color: #dcdcdc;
 	border: 1px solid #d2d2d2;
+	font-size: 11px;
+	line-height: 20px;
+	color: #575757;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 td.single.mini.special {
@@ -203,6 +215,12 @@ td.single.mini.special {
 
 td.single.mini:hover {
 	background-color: #0789a9;
+	color: #ffffff !important;
+}
+
+td.single.mini:hover * {
+	background-color: #0789a9;
+	color: #ffffff !important;
 }
 
 td.separator {
@@ -230,12 +248,13 @@ div.center {
 	width: 980px;
 	margin: 0 auto;
 	height: 56px;	
+	line-height: 56px;
 }
 
 #photo_info {
 	float: left;	
 	display: tabble-cell;
-	height: 50px;
+	height: 45px;
 	line-height: 18px;
 }
 
@@ -289,8 +308,12 @@ p.less_dark {
 
 .fcolumn {
 	float: left;
-	line-height: 30px;	
+	line-height: 29px;	
 	min-width: 115px;
+}
+
+img {
+    vertical-align: middle;
 }
 
 .fcolumn p {
@@ -311,12 +334,131 @@ div#map {
 	float: right;	
 }
 
+div#map_apla {
+	width: 628px;
+	text-align: right;
+	position: absolute;
+}
+
+div#map_apla_right {
+    width: 306px;	
+    height: 29px;
+    float: right;
+    background-color: #ffa400;
+    text-align: center;
+    opacity: 0.8;
+    line-height: 29px;
+}
+
+div#map_apla_right a {
+	color: #ffffff;	
+}
+
 .thumb {
 	float: left;	
 }
 
 .desc {
-	width: 145px;
+	width: 141px;
+	height: 100%;
 	float: right;
 	line-height: 18px;	
+	position: relative;
+}
+
+
+img.mini_arrow {
+    float: right;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.star {
+	background-image: url('/images/star_icon.png');
+	width: 11px;
+	height: 10px;	
+	display: inline-block;
+}
+
+div.stars {
+	
+}
+
+ul.stars_ul {
+	list-style: none;
+}
+
+.bottomRight {
+    position: absolute;
+    right: 0px;
+    bottom: -5px;
+}
+
+.right {
+	float: right;	
+}
+
+.left {
+	float: left;	
+	margin-right: 93px;
+}
+
+a.orange {
+	color: #ffa400;	
+}
+
+.last {
+	margin-right: 0px;	
+}
+
+span#footer_email {
+	height: 20px;
+	line-height: 16px;
+	background-image: url('/images/contact_footer_icon.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;	
+	margin-left: 45px;
+	display: inline-block;
+	font-size: 13px;
+}
+
+span.tel {
+	margin-left: 50px;
+}
+
+ul#footer_menu {
+	font-size: 14px;
+	list-style: none;
+	float: left;
+}
+
+ul#footer_menu li {
+	margin-right: 30px;
+	display: inline-block;
+}
+
+ul#footer_menu li a {
+	color: #575757;	
+}
+
+span.logo_mini {
+	margin-top: 20px;
+	height: 67px;
+	display: inline-block;
+	line-height: 17px;
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-image: url('/images/direct_bulgaria_mini.png');
+}
+
+div.photo_apla {
+	height: 20px;	
+	padding-left: 8px;
+	padding-right: 8px;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #ffa400 !important;
+	font-size: 13px;
+	color: #ffffff;
 }
