@@ -33,9 +33,29 @@ function extendInput(id) {
 	}
 }
 
+function addEvent(element, eventType, eventFunction){
+    if (element.attachEvent){
+        element.attachEvent('on'+eventType, eventFunction);
+    } else if (element.addEventListener){
+        element.addEventListener(eventType, eventFunction, true);
+    }
+}
 
+function changeLang(lang) {
+	byId('current_lang').innerHTML = lang;
+	hideLangMenu();
+}
+
+function showLangMenu(){
+	byId('lang_list').style.display = 'block';
+}
+
+function hideLangMenu(){
+	byId('lang_list').style.display = 'none';
+}
 
 $(document).ready(function(){
+	addEvent(document.body, 'click', hideLangMenu);
 	extendInput('search_input');
 	byId('search_button').onclick = function() {
 		document.forms['search_form'].submit();

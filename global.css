@@ -9,7 +9,7 @@ td {
 }
 
 body {
-	background: url('/images/background_1.jpg') no-repeat 0px 6px #ededed;	
+	background: url('/images/background_1.jpg') no-repeat center 6px #ededed;	
 	font-size: 13px;
 	font-family: Arial;
 }
@@ -94,6 +94,74 @@ div#add_your_offer {
 	width: 104px;
 	padding-left: 43px;
 	cursor: pointer;
+}
+
+div#lang {
+	position: absolute;
+	height: 25px;
+	margin-top: -235px;	
+	margin-left: 929px;
+	background-color: #ffffff;
+	color: #575757;
+	font-size: 13px;
+	width: 42px;
+	border: 1px #ededed solid;
+	padding: 3px;
+}
+
+div#current_lang {
+	width: 35px;
+	height: 25px;
+	background-image: url('/images/arrow_dropdown_lang.png');
+	background-color: #f9f9f9;	
+	line-height: 25px;
+	background-repeat: no-repeat;
+	padding-left: 7px;
+	background-position: 29px;
+	cursor: pointer;
+}
+
+
+ul#lang_list {
+	list-style: none;
+	position: absolute;
+	z-index: 1;
+	margin-left: -4px;
+	margin-top: 4px;
+	display: none;
+}
+
+ul#lang_list li span {
+	padding-left: 22px;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	cursor: pointer;	
+}
+
+span.bl {
+	background-image: url('/images/bl.png');	
+}
+
+span.en {
+	background-image: url('/images/en.png');	
+}
+
+span.cr {
+	background-image: url('/images/cr.png');	
+}
+
+span.pl {
+	background-image: url('/images/pl.png');	
+}
+
+ul#lang_list li {
+	background-color: #ffffff;
+	width: 44px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px #ededed solid;
+	border-top: 0;
+	padding-left: 4px;
 }
       
 div#add_your_offer:hover {
