@@ -268,6 +268,8 @@ div.header {
 	padding-right: 6px;
 }
 
+
+/* depricated */
 td.single.mini {
 	border: 1px #dddddd solid;
 	width: 295px;
@@ -301,10 +303,13 @@ td.full.gray {
 	padding-bottom: 8px;
 }
 
+/* depricated */
 td.single.mini.special {
 	background-color: #faf8c7;
 }
 
+
+/* depricated */
 td.single.mini:hover {
 	background-color: #0789a9;
 	color: #ffffff !important;
@@ -553,4 +558,34 @@ div.photo_apla {
 	background-color: #ffa400 !important;
 	font-size: 13px;
 	color: #ffffff;
+}
+
+div#section {
+	position: relative;
+	float: left;	
+}
+
+div.single.mini {
+	border: 1px #dddddd solid;
+	width: 295px;
+	height: 77px;	
+	background-color: #ffffff;
+	padding: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	padding-bottom: 6px;
+	display: inline-block;
+}
+
+div.single.mini.margin {
+	margin-left: 16px;	
+}
+
+div.single.mini:hover {
+	background-color: #0789a9 !important;
+	color: #ffffff !important;
+}
+
+div.single.mini.special {
+	background-color: #faf8c7;
 }
