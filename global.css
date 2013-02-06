@@ -231,11 +231,12 @@ div#content {
 table#content_table {
 	margin-bottom: 24px;	
 	margin-top: 260px;
+	border-collapse: collapse;
 }
 
 td.single {
 	border: 1px #dddddd solid;
-	width: 295px;
+	width: 288px;
 	height: 206px;	
 	background-color: #ffffff;
 	padding: 5px;
@@ -251,7 +252,7 @@ td.double {
 }
 
 td.margin {
-	width: 34px;
+	width: 41px;
 	display: block;
 }
 
@@ -432,7 +433,7 @@ div#map {
 }
 
 div#map_apla {
-	width: 628px;
+	width: 627px;
 	text-align: right;
 	position: absolute;
 }
@@ -567,7 +568,7 @@ div#section {
 
 div.single.mini {
 	border: 1px #dddddd solid;
-	width: 295px;
+	width: 288px;
 	height: 77px;	
 	background-color: #ffffff;
 	padding: 5px;
@@ -578,7 +579,7 @@ div.single.mini {
 }
 
 div.single.mini.margin {
-	margin-left: 16px;	
+	margin-left: 36px;	
 }
 
 div.single.mini:hover {
@@ -588,4 +589,9 @@ div.single.mini:hover {
 
 div.single.mini.special {
 	background-color: #faf8c7;
+}
+
+table#bottom {
+	width: 100%;
+	margin-bottom: 24px
 }
