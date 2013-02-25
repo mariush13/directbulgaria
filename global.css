@@ -9,7 +9,7 @@ td {
 }
 
 body {
-	background: url('/images/background_1.jpg') no-repeat center 6px #ededed;	
+	background: url('images/background_1.jpg') no-repeat center 6px #ededed;	
 	font-size: 13px;
 	font-family: Arial;
 }
@@ -34,6 +34,14 @@ div#main_wrapper {
 	margin: 0 auto;	
 }
 
+
+div#logotype {
+ width: 230px;
+ height: 100px;
+ position: absolute;
+ margin-top: -255px;
+ }
+
 div#search {
 	width: 	285px;
 	position: absolute;
@@ -56,14 +64,13 @@ input#search_input {
 div#search_button {
 	width: 38px;
 	height: 33px;
-	background: url('/images/search_icon.png') no-repeat center #ffa400;
+	background: url('images/search_icon.png') no-repeat center #ffa400;
 	display: inline-block;
 	float: left; 
 	cursor: pointer;
 }
 
 .advanced_search {
-	color: #575757;
 	font-size: 13px;
 	float: left;
 	margin-top: 5px;
@@ -87,7 +94,7 @@ div#add_your_offer {
 	line-height: 33px;
 	margin-top: -235px;	
 	margin-left: 762px;
-	background-image: url('/images/add_offer_button.png');
+	background-image: url('images/add_offer_button.png');
 	background-position: top;
 	color: #ffffff;
 	font-weight: bold;
@@ -112,7 +119,7 @@ div#lang {
 div#current_lang {
 	width: 35px;
 	height: 25px;
-	background-image: url('/images/arrow_dropdown_lang.png');
+	background-image: url('images/arrow_dropdown_lang.png');
 	background-color: #f9f9f9;	
 	line-height: 25px;
 	background-repeat: no-repeat;
@@ -139,19 +146,19 @@ ul#lang_list li span {
 }
 
 span.bl {
-	background-image: url('/images/bl.png');	
+	background-image: url('images/bl.png');	
 }
 
 span.en {
-	background-image: url('/images/en.png');	
+	background-image: url('images/en.png');	
 }
 
 span.cr {
-	background-image: url('/images/cr.png');	
+	background-image: url('images/cr.png');	
 }
 
 span.pl {
-	background-image: url('/images/pl.png');	
+	background-image: url('images/pl.png');	
 }
 
 ul#lang_list li {
@@ -190,14 +197,14 @@ table#menu_table td {
 	padding-right: 8px;
 	text-align: center;
 	cursor: pointer;
-	background-image: url('/images/menu_bg2.png');
+	background-image: url('images/menu_bg2.png');
 	background-repeat: repeat-x;
 	opacity: 0.9;
 	filter: alpha(opacity=90);
 }
 
 table#menu_table td:hover {
-	background-image: url('/images/menu_bg2_hover.png');
+	background-image: url('images/menu_bg2_hover.png');
 }
 
 table#menu_table td.first {	
@@ -221,7 +228,7 @@ table#menu_table td.separator {
 	width: 1px;
 	height: 65px;
 	padding: 0;
-	background-image: url('/images/menu_bg2_hover.png');	
+	background-image: url('images/menu_bg2_hover.png');	
 }
 
 div#content {
@@ -472,7 +479,7 @@ img.mini_arrow {
 }
 
 .star {
-	background-image: url('/images/star_icon.png');
+	background-image: url('images/star_icon.png');
 	width: 11px;
 	height: 10px;	
 	display: inline-block;
@@ -501,9 +508,6 @@ ul.stars_ul {
 	margin-right: 93px;
 }
 
-a.orange {
-	color: #ffa400;	
-}
 
 .last {
 	margin-right: 0px;	
@@ -512,7 +516,7 @@ a.orange {
 span#footer_email {
 	height: 20px;
 	line-height: 16px;
-	background-image: url('/images/contact_footer_icon.png');
+	background-image: url('images/contact_footer_icon.png');
 	background-repeat: no-repeat;
 	padding-left: 30px;	
 	margin-left: 45px;
@@ -535,9 +539,6 @@ ul#footer_menu li {
 	display: inline-block;
 }
 
-ul#footer_menu li a {
-	color: #575757;	
-}
 
 span.logo_mini {
 	margin-top: 20px;
@@ -546,18 +547,19 @@ span.logo_mini {
 	line-height: 17px;
 	padding-left: 35px;
 	background-repeat: no-repeat;
-	background-image: url('/images/direct_bulgaria_mini.png');
+	background-image: url('images/direct_bulgaria_mini.png');
 }
 
 div.photo_apla {
-	height: 20px;	
-	padding-left: 8px;
-	padding-right: 8px;
+	height: 18px;	
+	padding-left: 4px;
+	padding-right: 4px;
 	position: absolute;
 	margin-top: 0px;
 	margin-left: 0px;
 	background-color: #ffa400 !important;
 	font-size: 13px;
+	font-weight: bold;
 	color: #ffffff;
 }
 
@@ -595,3 +597,17 @@ table#bottom {
 	width: 100%;
 	margin-bottom: 24px
 }
+
+
+
+/*Links*/
+
+a.orange:link { color: #ffa400; text-decoration: none; }
+a.orange:visited { color: #ffa400; text-decoration: none; }
+a.orange:hover { color: #d48800; text-decoration: none; }
+a.orange:active { color: #d48800; text-decoration: none; }
+
+a.grey:link { color: #575757; text-decoration: none; }
+a.grey:visited { color: #575757; text-decoration: none; }
+a.grey:hover { color: #000; text-decoration: none; }
+a.grey:active { color: #000; text-decoration: none; }
