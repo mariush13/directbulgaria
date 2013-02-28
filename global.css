@@ -611,3 +611,218 @@ a.grey:link { color: #575757; text-decoration: none; }
 a.grey:visited { color: #575757; text-decoration: none; }
 a.grey:hover { color: #000; text-decoration: none; }
 a.grey:active { color: #000; text-decoration: none; }
+
+a.light_gray:link { color: #898989; text-decoration: none; }
+a.light_gray:visited { color: #898989; text-decoration: none; }
+
+/* Hotel details page */
+
+div#name_header {
+	background: #161616;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 255px;
+	color: #ffffff;
+	text-align: center;
+}
+
+a.offer_prev {
+	background: url('/images/arrow_left.png') no-repeat 0px;
+	float: left;
+	margin-left: 10px;
+	padding-left: 15px;
+}
+
+a.offer_next {
+	background: url('/images/arrow_right.png') no-repeat 0px;
+	background-position: right;
+	float: right;
+	margin-right: 10px;
+	padding-right: 15px;
+	margin-top: -40px
+}
+
+div#hotel_name ul.stars_ul {
+	display: inline-block;
+}
+
+div#float_menu {
+	width: 298px;
+	border:	1px #dddddd solid;
+	background: #ffffff;
+	margin-top: 20px;
+	float: left;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+div#right_content {
+	width: 637px;
+	min-height: 2600px; /* TODO delete this */
+	border:	1px #dddddd solid;
+	background: #ffffff;
+	margin-top: 20px;
+	float: right;
+}
+
+div.section.hover {
+	border-bottom: 1px #ededed solid;
+	line-height: 30px; 	
+}
+
+p.place_name {	
+	font-weight: bold;
+	padding-left: 6px;
+	line-height: 18px;
+}
+
+p.hotel_name {	
+	padding-left: 6px;
+	margin-top: 2px;
+	display: inline;
+	line-height: 18px;
+	font-weight: normal;
+	color: #575757;
+}
+
+div.section ul {
+	display: inline;
+}
+
+div.hotel_name_section {
+	border-bottom: 1px #ededed solid;
+	padding-bottom: 14px;
+}
+
+div.section {
+	border-bottom: 1px #ededed solid;
+	font-weight: bold;
+}
+
+div.section.hover:hover {
+	background: #ededed;	
+}
+
+div.section a {
+	color: #575757;
+}
+
+.orange {
+	color: #ffa400;
+	font-weight: bold;
+	padding-left: 6px;
+}
+
+p.prices {	
+	padding-left: 6px;
+	color: #575757;
+}
+
+p.about {
+	margin-left: 6px;
+	background: url('/images/ico_about_hotel.png') no-repeat 0 7px;
+	padding-left: 27px;
+}
+
+p.plus {
+	margin-left: 7px;
+	background: url('/images/ico_amenities.png') no-repeat 0 7px;
+	padding-left: 26px;
+}
+
+p.special {
+	margin-left: 6px;
+	background: url('/images/ico_special_offer.png') no-repeat 0 7px;
+	padding-left: 27px;
+	color: #e00812;
+}
+
+p.special a {
+	color: #e00812;
+}
+
+p.facilities {
+	margin-left: 9px;
+	background: url('/images/ico_room_facilities.png') no-repeat 0 7px;
+	padding-left: 25px;
+}
+
+p.sport {
+	margin-left: 8px;
+	background: url('/images/ico_sport.png') no-repeat 0 7px;
+	padding-left: 26px;
+}
+
+p.restaurant {
+	margin-left: 11px;
+	background: url('/images/ico_restaurant.png') no-repeat 0 7px;
+	padding-left: 23px;
+}
+
+p.location {
+	margin-left: 10px;
+	background: url('/images/ico_how_to_get.png') no-repeat 0 7px;
+	padding-left: 24px;
+}
+
+p.contact {
+	margin-left: 6px;
+	background: url('/images/ico_contact.png') no-repeat 0 7px;
+	padding-left: 27px;
+}
+
+p.road {
+	margin-left: 6px;
+	background: url('/images/ico_atractions.png') no-repeat 0 7px;
+	padding-left: 27px;
+}
+
+div.save_for_later {
+	float: left;
+		
+}
+
+div.save_for_later p {
+	margin-left: 6px;
+	background: url('/images/ico_fav.png') no-repeat 0 4px;
+	padding-left: 16px;
+	color: #575757;
+	margin-top: 11px;
+}
+
+div.fb_like {
+	background: url('/images/fb_like.png') no-repeat;
+	float: right;
+	width: 71px;
+	height: 20px;
+	margin: 10px 7px 9px 0;
+}
+
+div.under_float_menu {
+    margin-left: -3px;
+    margin-top: 45px;
+    position: absolute;
+}
+
+div.under_float_menu p {	
+	display: inline;
+	color: #575757;
+}
+
+p.report {
+	background: url('/images/ico_report.png') no-repeat 0 4px;
+	padding-left: 11px;
+}
+
+p.email_friend {
+	background: url('/images/ico_email_friend.png') no-repeat 0 4px;
+	padding-left: 16px;
+	margin-left: 14px;
+}
+
+p.print {
+	background: url('/images/ico_print.png') no-repeat 0 4px;
+	padding-left: 18px;
+	margin-left: 14px;
+}
