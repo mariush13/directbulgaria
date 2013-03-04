@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	border-collapse: collapse;
 }
 
 td {
@@ -658,10 +659,7 @@ div#float_menu {
 }
 
 div#right_content {
-	width: 637px;
-	min-height: 2600px; /* TODO delete this */
-	border:	1px #dddddd solid;
-	background: #ffffff;
+	width: 639px;
 	margin-top: 20px;
 	float: right;
 }
@@ -825,4 +823,113 @@ p.print {
 	background: url('/images/ico_print.png') no-repeat 0 4px;
 	padding-left: 18px;
 	margin-left: 14px;
+}
+
+div.request_reservation_button {
+	background: url('/images/request_button.png') no-repeat;
+	width: 194px;
+	height: 30px;
+}
+
+div.box {
+	border:	1px #dddddd solid;
+	background: #ffffff;
+	padding: 5px;
+}
+
+.mbottom10 {
+	margin-bottom: 10px;
+}
+
+.fright {
+	float: right;
+}
+
+.fleft {
+	float: left;
+}
+
+div.price_text {
+	font-size: 14px;
+	margin-right: 16px;
+	margin-top: 4px;
+}
+
+span.price_orange {
+	color: #ffa400;
+	font-size: 18px;	
+}
+
+div.prices_button {
+	background: url('/images/price_button.png') no-repeat;
+	width: 159px;
+	height: 30px;
+}
+
+div.big_photo {
+	width: 627px;
+	height: 392px;	
+}
+
+div.slider {
+	margin-top: 14px;
+}
+
+div.slider_prev {
+	width: 19px;
+	height: 40px;
+	background: url('/images/slider_left_disabled.png');
+	float: left;
+	margin-right: 1px;
+	margin-top: 30px;
+}
+
+div.slider_next {
+	width: 19px;
+	height: 40px;
+	background: url('/images/slider_right_enabled.png');
+	margin-left: 1x;
+	float: right; 
+	margin-top: 30px;
+}
+
+div.slider_slides {
+	width: 587px;
+	overflow-x: hidden;
+	float: left;
+}
+
+td.slider_slide img {
+	width: 180px;
+	margin-right: 23px;
+}
+
+p.title {
+	font-size: 18px;
+	background-position: 0 3px;	
+	margin-left: 0px;
+}
+
+p.title.about {
+	margin-top: 11px;
+	margin-bottom: 9px;	
+}
+
+hr {
+	border-top: 1px #dddddd solid;
+	margin: 17px 0;	
+}
+
+th {
+	text-align: left;
+	height: 30px;	
+}
+
+table.features td {
+	height: 30px;	
+}
+
+p.feature {
+	background: url('/images/ico_left.png') no-repeat 0 4px;
+	padding-left: 18px;
 }
